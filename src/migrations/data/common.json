@@ -1,0 +1,182 @@
+[
+  {
+    "type": "new",
+    "typeName": {
+      "en": "New",
+      "vi": "Mới"
+    },
+    "group": "customer_type",
+    "groupName": {
+      "en": "Customer type",
+      "vi": "Nhóm khách hàng"
+    }
+  },
+  {
+    "type": "actived",
+    "typeName": {
+      "en": "Actived",
+      "vi": "Đang hoạt động"
+    },
+    "group": "customer_type",
+    "groupName": {
+      "en": "Customer type",
+      "vi": "Nhóm khách hàng"
+    }
+  },
+  {
+    "type": "inactived",
+    "typeName": {
+      "en": "Inactived",
+      "vi": "Tạm dừng"
+    },
+    "group": "customer_type",
+    "groupName": {
+      "en": "Customer type",
+      "vi": "Nhóm khách hàng"
+    }
+  },
+  {
+    "type": "block",
+    "typeName": {
+      "en": "Block",
+      "vi": "Khóa"
+    },
+    "group": "customer_type",
+    "groupName": {
+      "en": "Customer type",
+      "vi": "Nhóm khách hàng"
+    }
+  },
+  {
+    "type": "vip",
+    "typeName": {
+      "en": "Vip",
+      "vi": "Vip"
+    },
+    "group": "customer_type",
+    "groupName": {
+      "en": "Customer type",
+      "vi": "Nhóm khách hàng"
+    }
+  },
+  {
+    "type": "secret_url",
+    "typeName": {
+      "en": "Secret URL",
+      "vi": "URL bảo mật"
+    },
+    "group": "validation_token_type",
+    "groupName": {
+      "en": "Validation token type",
+      "vi": "Loại xác minh"
+    }
+  },
+  {
+    "type": "pin_otp",
+    "typeName": {
+      "en": "Pin OTP",
+      "vi": "Mã một lần"
+    },
+    "group": "validation_token_type",
+    "groupName": {
+      "en": "Validation token type",
+      "vi": "Loại xác minh"
+    }
+  },
+  {
+    "type": "new",
+    "typeName": {
+      "en": "New",
+      "vi": "Mới"
+    },
+    "group": "comment_status",
+    "groupName": {
+      "en": "Comment status",
+      "vi": "Trạng thái bình luận"
+    }
+  },
+  {
+    "type": "valid",
+    "typeName": {
+      "en": "Valid",
+      "vi": "Hợp lệ"
+    },
+    "group": "comment_status",
+    "groupName": {
+      "en": "Comment status",
+      "vi": "Trạng thái bình luận"
+    }
+  },
+  {
+    "type": "invalid",
+    "typeName": {
+      "en": "Invalid",
+      "vi": "Không hợp lệ"
+    },
+    "group": "comment_status",
+    "groupName": {
+      "en": "Comment status",
+      "vi": "Trạng thái bình luận"
+    }
+  },
+  {
+    "type": "news",
+    "typeName": {
+      "en": "News",
+      "vi": "Tin tức"
+    },
+    "group": "comment_topic",
+    "groupName": {
+      "en": "Comment topic",
+      "vi": "Nhóm chủ đề"
+    }
+  },
+  {
+    "type": "product",
+    "typeName": {
+      "en": "Product",
+      "vi": "Sản phẩm"
+    },
+    "group": "comment_topic",
+    "groupName": {
+      "en": "Comment topic",
+      "vi": "Nhóm chủ đề"
+    }
+  },
+  {
+    "type": "new",
+    "typeName": {
+      "en": "New",
+      "vi": "Mới"
+    },
+    "group": "media_status",
+    "groupName": {
+      "en": "Media status",
+      "vi": "Trạng thái tập tin"
+    }
+  },
+  {
+    "type": "assign",
+    "typeName": {
+      "en": "Assign",
+      "vi": "Đang sử dụng"
+    },
+    "group": "media_status",
+    "groupName": {
+      "en": "Media status",
+      "vi": "Trạng thái tập tin"
+    }
+  },
+  {
+    "type": "unassign",
+    "typeName": {
+      "en": "Unassign",
+      "vi": "Bỏ trống"
+    },
+    "group": "media_status",
+    "groupName": {
+      "en": "Media status",
+      "vi": "Trạng thái tập tin"
+    }
+  }
+]
