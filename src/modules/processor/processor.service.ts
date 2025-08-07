@@ -46,7 +46,7 @@ export class ProcessorService {
     }
   }
 
-  async retrieveAvatar(data: any) {
+  async retrieveImage(data: any) {
     try {
       const { id } = data
       const { id: mediaStatusId} = await this.mediaStatusRepository.findOne({
@@ -56,9 +56,15 @@ export class ProcessorService {
         }
       })
       await this.mediaRepository.update(id, { statusId: mediaStatusId });
-      const {url} = await this.mediaRepository.findOne({where: { id }})
+      const response = await this.mediaRepository.findOne({where: { id }})
 
-      return url
+      return {
+        name: response.name,
+        url: response.url,
+        fileType: response.fileType,
+        alt: response.alt,
+        status: response.status.type
+      }
     } catch(err) {
       this.logger.error(`Upload avatar error: ${JSON.stringify(err)}`);
     }

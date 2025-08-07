@@ -18,8 +18,8 @@ export class ProcessorController {
   }
     
   @Permissions(`${VIEW.GROUP}.${VIEW.MEDIA}`)
-  @MessagePattern('retrieveAvatar')
+  @MessagePattern('retrieveImage')
   async signUp(@Payload() data: any) {
-    return await this.processorService.retrieveAvatar(data)
+    return await this.processorService.retrieveImage(data)
   }
 }
